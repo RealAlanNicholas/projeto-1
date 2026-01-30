@@ -190,3 +190,70 @@ footer p {
 }
 
 /* Fim Rodapé */
+
+/* Responsividade */
+
+@media (max-width: 1050px){
+    /* Inicio Main */
+    .main h1{
+        font-size: 45px;
+    }
+    .main p{
+        font-size: 18px;
+    }
+
+    .main{
+        background-size: cover;
+    }
+
+    /* Fim do Main */
+
+
+    /* Inicio Sobre */
+    .about{
+        flex-direction: column;
+        padding-top: 80px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+    .about div{
+        max-width: 80%;
+    }
+    .about div h2{
+        font-size: 45px;
+    }
+    .about img{
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    /* Final do Sobre */
+
+    /* Inicio projeto */
+
+    .projects img{
+        width: 27.5%;
+    }
+
+    /* Fim projetos */
+
+    /* Inicio rodapé */
+
+    footer{
+        flex-direction: column;
+    }
+
+    footer h3{
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    footer p{
+        margin: 0;
+    }
+
+
+
+}
+    
